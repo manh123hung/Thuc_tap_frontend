@@ -1,0 +1,16 @@
+.bs3 {
+  height: 650px; /* Thiết lập chiều cao ban đầu của container */
+  overflow: auto; /* Cho phép container có thanh cuộn khi nội dung vượt quá kích thước */
+}
+
+.bs3 img {
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của container */
+  height: auto; /* Giữ tỷ lệ kích thước của hình ảnh */
+}
+.button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: rgb(107, 1, 1);
+  border: none;
+  cursor: pointer;
+}
